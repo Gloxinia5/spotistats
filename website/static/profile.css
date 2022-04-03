@@ -1,0 +1,59 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.picture{
+    width: 80px;
+    height: 80px;
+}
+ 
+.noHover{
+    pointer-events: none;
+}
+
+.icon{
+    width: 200px;   
+    height: 200px;
+}
+
+.shadow{
+    box-shadow: 1px 1px 20px 1px rgb(82, 87, 90)
+}
+
+.rank1{
+    box-shadow: 1px 1px 20px 1px rgb(208, 255, 0)
+}
+.rank2{
+    box-shadow: 1px 1px 20px 1px rgb(255, 0, 0)
+}
+.rank3{
+    box-shadow: 1px 1px 20px 1px rgb(0, 174, 255)
+}
+
+.center{
+    text-align: center;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.borders{
+    border-radius: 10px;
+}
+
+.image-offline{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.image-online{
+    border-radius: 50%;
+    width:64px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

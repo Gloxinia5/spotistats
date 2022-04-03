@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %}
+Spotistats
+{% endblock %}
+
+{% block content %}
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+                <h1>What is <span class="text-success">Spotistats</span>?</h1>
+                <p class="lead my-4 pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nobis quis sapiente enim. Magnam nostrum enim numquam saepe itaque, mollitia molestiae possimus sint odio necessitatibus illum, tempore alias velit placeat.</p>
+                <a href="/login"><button type="button" class="btn btn-success">Try it out</button></a>
+            </div>
+            <img class="img-fluid w-50" src="static/web-analytics.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="container">
+    <h1 class="text-center p-4">Features</h1>
+    <div class="container container-fluid d-sm-flex gap-5">
+        <div class="shadow-lg text-center p-4 m-2 w-30 rounded">
+        <div>
+            <h1 class="text-success">TOP TRACKS</h1>
+            <p class="lead">Spotistats track and analyze the most played tracks and songs to your spotify account.</p>
+        </div> 
+        <img class="img-fluid w-50" src="static/music.png" alt="">   
+        </div>
+        <div class="shadow-lg text-center p-4 m-2 w-30 rounded">
+        <div>
+            <h1 class="text-success">USER TASTE</h1>
+            <p class="lead">Spotistats thoroughly analyze what you're listening and assign a genre based on the data analyzed</p>
+        </div>
+        <img class="img-fluid w-50" src="static/feedback.png" alt="">
+        </div>
+        <div class="cards">
+        <div class="shadow-lg text-center p-4 m-2 w-30 rounded">
+            <h1 class="text-success">INTERACTION</h1>
+            <p class="lead">Invite your friends and check each others music taste, favorite tracks and see what each other is currently playing</p>
+            <img class="img-fluid w-50" src="static/interactions.png" alt="">
+        </div>
+    </div>
+    </div>
+    </div>
+    <footer>
+    test
+    </footer>
+{% endblock %}
